@@ -7,7 +7,7 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
-  <title>Document</title>
+  <title>Newsletter</title>
 
   <link
     rel="stylesheet"
@@ -58,6 +58,7 @@
   <form>
     <fieldset>
       <legend>Subscribe:</legend>
+
       <label>Title:</label>
       <label for="male">Mr</label>
       <input
@@ -67,6 +68,7 @@
         value="male"
         checked
       >
+
       <label for="female">Ms</label>
       <input
         type="radio"
@@ -74,6 +76,7 @@
         id="female"
         value="female"
       >
+
       <label for="na">Unspecified</label>
       <input
         type="radio"
@@ -81,19 +84,33 @@
         id="na"
         value="na"
       ><br>
-      <label
-        for="name"
-        required
-      >*Name:</label>
+
+      <label for="name">*Name:</label>
       <input
         type="text"
         name="name"
         id="name"
         placeholder="Name"
+        required
+      >
+
+      <label for="surname">*Surname:</label>
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Surname"
+        required
       > <br>
 
-
-      <!-- insert code -->
+      <label for="email">*Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      > <br> <br>
 
       <input
         type="checkbox"
@@ -103,11 +120,19 @@
       <label for="subscribe">Agree to this and <i>we will send you emails</i>.
       </label> <br>
 
-      <!-- insert code -->
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+        checked
+      >
+      <label for="gdpr-consent">GDPR generic consent?</label> <br><br>
 
       <button
         type="submit"
         title="Subscribe"
+        name="submit"
+        id="submit"
       >Subscribe</button>
     </fieldset>
   </form>
