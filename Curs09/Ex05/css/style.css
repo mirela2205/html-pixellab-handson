@@ -24,17 +24,24 @@
   background-color: yellow;
 }
 
-/* insert code */
+.box-red {
+  transition: width 3s linear;
+}
+
+.box-red:hover {
+  width: 120px;
+}
+
 /* definim tranzitia pe starea de repaos */
 
 .box-green {
-transition: transform 5s linear;
+  transition: transform 5s linear;
 }
 
 /* definim valorile pt transform pe hover */
 
 .box-green:hover {
-transform: rotate(360deg) scale(1.5);
+  transform: rotate(360deg) scale(1.5);
 }
 
 .box-purple {
@@ -42,6 +49,22 @@ transform: rotate(360deg) scale(1.5);
 }
 
 .box-purple:hover {
-width: 100px;
-height: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+.box-brown:hover {
+  transform: rotate(-180deg) scale(0.5);
+}
+
+.box-brown {
+  transition: transform 4s ease-in 2s;
+}
+
+.box-yellow:hover {
+  transform: scale(2);
+}
+
+.box-yellow {
+  transition: transform 3s ease-in-out 1s;
 }

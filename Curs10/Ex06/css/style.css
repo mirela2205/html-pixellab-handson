@@ -2,6 +2,14 @@
   text-decoration: none;
 }
 
+.main li:nth-of-type(even) a:hover {
+  color: red;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
 p i {
   position: relative;
 }
@@ -10,3 +18,23 @@ p:hover i {
   left: 2px;
   top: -2px;
 }
+
+.secondary a:hover {
+  text-decoration: overline;
+}
+
+.main li:nth-of-type(odd) a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+p b {
+  position: relative;
+}
+
+p:hover b {
+  color: red;
+  top: -2px;
+}
+
+

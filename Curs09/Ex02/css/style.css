@@ -26,3 +26,39 @@
   justify-content: center;
   align-items: center;
 }
+
+.stage-02 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.stage-03 {
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+}
+
+.stage-04 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.stage-05 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.stage-06 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.stage-07 {
+display: flex;
+justify-content: space-evenly;
+align-items: flex-start;
+}
