@@ -90,22 +90,24 @@
         <!-- ./header-connect -->
 
         <div class="header-controls">
-          <form class="header-controls-search">
-            <button
-              type="submit"
-              title="submit"
-            >
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-
-            <input
-              type="text"
-              placeholder="Search"
-              name="search"
-            >
-          </form>
-
           <ul>
+            <li>
+              <form class="header-controls-search">
+                <button
+                  type="submit"
+                  title="submit"
+                >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+                <input
+                  type="text"
+                  placeholder="Search"
+                  name="search"
+                >
+              </form>
+            </li>
+
             <li>
               <a
                 href=""
@@ -191,9 +193,10 @@
   </header>
   <!-- ./header -->
 
-  <main class="content">
-    <section class="home-catalog-preview container">
+  <main class="content container">
+    <section class="home-catalog-preview">
       <header>
+        <hr>
         <h1>New Stuff</h1>
       </header>
 
@@ -368,6 +371,7 @@
 
     <section class="home-catalog-preview">
       <header>
+        <hr>
         <h1>Most loved</h1>
       </header>
 
@@ -570,6 +574,7 @@
 
     <section class="home-catalog-preview">
       <header>
+        <hr>
         <h1>Men's</h1>
       </header>
 
@@ -752,6 +757,7 @@
 
     <section class="home-catalog-preview">
       <header>
+        <hr>
         <h1>Women's</h1>
       </header>
 
@@ -1037,7 +1043,10 @@
             id="newsletter"
             required
           >
-          <label for="newsletter">I agree with Privacy Policy and i want to receive emails from Monochrome</label> <br>
+          <label for="newsletter">
+            <span>I agree with <span>Privacy Policy</span> and I want to <br>
+              receive emails from
+              Monochrome</span></label>
 
           <button
             type="submit"
